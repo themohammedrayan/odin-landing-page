@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+/* display:flex  -- turns it into a flexbox container so we can align the logo and nav links side by side */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* add "a" to focus on links in nav */
+.nav-links a {
+    color : white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
