@@ -117,3 +117,72 @@
     color: #1f2937;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding: 80px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+.quote-text {
+    font-style: italic;
+    font-size: 24px;
+    color: #1f2937
+}
+
+}
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.quote-container {
+    max-width: 800px;
+}
+
+.signup {
+    background-color: #3882f6;
+    padding: 50px 10%;
+    margin: 60px 10%;
+    border-radius: 10px;
+    color: white;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.signup-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-text p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.signup-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: 30px 0;
+    padding: 30px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
